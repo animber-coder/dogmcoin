@@ -82,6 +82,16 @@ private:
     Consensus::Params D8AuxpowChainIdConsensus;
     Consensus::Params D9AuxpowChainIdConsensus;
     Consensus::Params D10AuxpowChainIdConsensus;
+    Consensus::Params D11AuxpowChainIdConsensus;
+    Consensus::Params D12AuxpowChainIdConsensus;
+    Consensus::Params D13AuxpowChainIdConsensus;
+    Consensus::Params D14AuxpowChainIdConsensus;
+    Consensus::Params D15AuxpowChainIdConsensus;
+    Consensus::Params D16AuxpowChainIdConsensus;
+    Consensus::Params D17AuxpowChainIdConsensus;
+    Consensus::Params D18AuxpowChainIdConsensus;
+    Consensus::Params D19AuxpowChainIdConsensus;
+    Consensus::Params D20AuxpowChainIdConsensus;
 public:
     CMainParams() {
         strNetworkID = "main";
@@ -161,50 +171,100 @@ public:
         D1AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
         D1AuxpowChainIdConsensus.nHeightEffective = 5096800;
 
-        // Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+        // Dogmcoin Auxpow chain ID change every 525600 blocks. 
         D2AuxpowChainIdConsensus = D1AuxpowChainIdConsensus;   
         D2AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
-        D2AuxpowChainIdConsensus.nHeightEffective = 6148000;
+        D2AuxpowChainIdConsensus.nHeightEffective = 5622400;
 
-        // Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
         D3AuxpowChainIdConsensus = D2AuxpowChainIdConsensus;   
         D3AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
-        D3AuxpowChainIdConsensus.nHeightEffective = 7199200;
+        D3AuxpowChainIdConsensus.nHeightEffective = 6148000;
 
-        // Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+        // Dogmcoin Auxpow chain ID change every 525600 blocks. 
         D4AuxpowChainIdConsensus = D3AuxpowChainIdConsensus;   
         D4AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
-        D4AuxpowChainIdConsensus.nHeightEffective = 8250400;
+        D4AuxpowChainIdConsensus.nHeightEffective = 6673600;
 
-	// Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+	// Dogmcoin Auxpow chain ID change every 525600 blocks.
         D5AuxpowChainIdConsensus = D4AuxpowChainIdConsensus;   
         D5AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
-        D5AuxpowChainIdConsensus.nHeightEffective = 9301600;
+        D5AuxpowChainIdConsensus.nHeightEffective = 7199200;
 
-        // Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+        // Dogmcoin Auxpow chain ID change every 525600 blocks. 
         D6AuxpowChainIdConsensus = D5AuxpowChainIdConsensus;   
         D6AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
-        D6AuxpowChainIdConsensus.nHeightEffective = 10352800;
+        D6AuxpowChainIdConsensus.nHeightEffective = 7724800;
 
-        // Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
         D7AuxpowChainIdConsensus = D6AuxpowChainIdConsensus;   
         D7AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
-        D7AuxpowChainIdConsensus.nHeightEffective = 11404000;
+        D7AuxpowChainIdConsensus.nHeightEffective = 8250400;
 
-        // Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+        // Dogmcoin Auxpow chain ID change every 525600 blocks. 
         D8AuxpowChainIdConsensus = D7AuxpowChainIdConsensus;   
         D8AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
-        D8AuxpowChainIdConsensus.nHeightEffective = 12455200;
+        D8AuxpowChainIdConsensus.nHeightEffective = 8776000;
 
-	// Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+	// Dogmcoin Auxpow chain ID change every 525600 blocks.
         D9AuxpowChainIdConsensus = D8AuxpowChainIdConsensus;   
         D9AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
-        D9AuxpowChainIdConsensus.nHeightEffective = 13506400;
+        D9AuxpowChainIdConsensus.nHeightEffective = 9301600;
 
-        // Dogmcoin Auxpow chain ID change every 1,051,200 blocks. 
+        // Dogmcoin Auxpow chain ID change every 525600 blocks. 
         D10AuxpowChainIdConsensus = D9AuxpowChainIdConsensus;   
         D10AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
-        D10AuxpowChainIdConsensus.nHeightEffective = 14557600;
+        D10AuxpowChainIdConsensus.nHeightEffective = 9827200;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D11AuxpowChainIdConsensus = D10AuxpowChainIdConsensus;
+        D11AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
+        D11AuxpowChainIdConsensus.nHeightEffective = 10352800;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D12AuxpowChainIdConsensus = D11AuxpowChainIdConsensus;
+        D12AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
+        D12AuxpowChainIdConsensus.nHeightEffective = 10878400;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D13AuxpowChainIdConsensus = D12AuxpowChainIdConsensus;
+        D13AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
+        D13AuxpowChainIdConsensus.nHeightEffective = 11404000;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D14AuxpowChainIdConsensus = D13AuxpowChainIdConsensus;
+        D14AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
+        D14AuxpowChainIdConsensus.nHeightEffective = 11929600;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D15AuxpowChainIdConsensus = D14AuxpowChainIdConsensus;
+        D15AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
+        D15AuxpowChainIdConsensus.nHeightEffective = 12455200;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D16AuxpowChainIdConsensus = D15AuxpowChainIdConsensus;
+        D16AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
+        D16AuxpowChainIdConsensus.nHeightEffective = 12980800;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D17AuxpowChainIdConsensus = D16AuxpowChainIdConsensus;
+        D17AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
+        D17AuxpowChainIdConsensus.nHeightEffective = 13506400;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D18AuxpowChainIdConsensus = D17AuxpowChainIdConsensus;
+        D18AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
+        D18AuxpowChainIdConsensus.nHeightEffective = 14032000;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D19AuxpowChainIdConsensus = D18AuxpowChainIdConsensus;
+        D19AuxpowChainIdConsensus.nAuxpowChainId = 0x006C; // 108 - msy2008!
+        D19AuxpowChainIdConsensus.nHeightEffective = 14557600;
+
+        // Dogmcoin Auxpow chain ID change every 525600 blocks.
+        D20AuxpowChainIdConsensus = D19AuxpowChainIdConsensus;
+        D20AuxpowChainIdConsensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
+        D20AuxpowChainIdConsensus.nHeightEffective = 15083200;
 
         // Assemble the binary search tree of consensus parameters
         pConsensusRoot = &digishieldConsensus;
@@ -222,7 +282,17 @@ public:
 	D7AuxpowChainIdConsensus.pRight = &D8AuxpowChainIdConsensus;
 	D8AuxpowChainIdConsensus.pRight = &D9AuxpowChainIdConsensus;
 	D9AuxpowChainIdConsensus.pRight = &D10AuxpowChainIdConsensus;
-        
+        D10AuxpowChainIdConsensus.pRight = &D11AuxpowChainIdConsensus;
+        D11AuxpowChainIdConsensus.pRight = &D12AuxpowChainIdConsensus;
+        D12AuxpowChainIdConsensus.pRight = &D13AuxpowChainIdConsensus;
+        D13AuxpowChainIdConsensus.pRight = &D14AuxpowChainIdConsensus;
+        D14AuxpowChainIdConsensus.pRight = &D15AuxpowChainIdConsensus;
+        D15AuxpowChainIdConsensus.pRight = &D16AuxpowChainIdConsensus;
+        D16AuxpowChainIdConsensus.pRight = &D17AuxpowChainIdConsensus;
+        D17AuxpowChainIdConsensus.pRight = &D18AuxpowChainIdConsensus;
+        D18AuxpowChainIdConsensus.pRight = &D19AuxpowChainIdConsensus;
+        D19AuxpowChainIdConsensus.pRight = &D20AuxpowChainIdConsensus;
+
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -244,15 +314,25 @@ public:
         minDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         notminDifficultyConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         D1AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D2AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D3AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D4AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D5AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D6AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D7AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D8AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
-	D9AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D2AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D3AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D4AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D5AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D6AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D7AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D8AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+	    D9AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         D10AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D11AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D12AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D13AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D14AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D15AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D16AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D17AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D18AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D19AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
+        D20AuxpowChainIdConsensus.hashGenesisBlock = consensus.hashGenesisBlock;
         assert(consensus.hashGenesisBlock == uint256S("0x1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691"));
         assert(genesis.hashMerkleRoot == uint256S("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
 
