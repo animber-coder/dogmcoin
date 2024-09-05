@@ -340,9 +340,15 @@ public:
         vSeeds.push_back(CDNSSeedData("dogmcoin.org", "dnsseed.dogmcoin.org", true));
         vSeeds.push_back(CDNSSeedData("dogmcoin.org", "dnsseed2.dogmcoin.org"));
         vSeeds.push_back(CDNSSeedData("dogmcoin.org", "dnsseed3.dogmcoin.org"));
+	vSeeds.push_back(CDNSSeedData("dogmcoin.org", "dnsseed4.dogmcoin.org" ));
+        vSeeds.push_back(CDNSSeedData("dogmcoin.org", "dnsseed5.dogmcoin.org"));
+        vSeeds.push_back(CDNSSeedData("dogmcoin.org", "dnsseed6.dogmcoin.org"));    
         vSeeds.push_back(CDNSSeedData("dogmcoin.com", "dnsseed.dogmcoin.com", true));
         vSeeds.push_back(CDNSSeedData("dogmcoin.com", "dnsseed2.dogmcoin.com"));
         vSeeds.push_back(CDNSSeedData("dogmcoin.com", "dnsseed3.dogmcoin.com"));
+	vSeeds.push_back(CDNSSeedData("dogmcoin.com", "dnsseed4.dogmcoin.com" ));
+        vSeeds.push_back(CDNSSeedData("dogmcoin.com", "dnsseed5.dogmcoin.com"));
+        vSeeds.push_back(CDNSSeedData("dogmcoin.com", "dnsseed6.dogmcoin.com"));   
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,22);
