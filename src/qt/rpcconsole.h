@@ -138,6 +138,7 @@ private:
 
     enum ColumnWidths
     {
+        NETNODEID_COLUMN_WIDTH = 60,
         ADDRESS_COLUMN_WIDTH = 160,
         SUBVERSION_COLUMN_WIDTH = 180,
         PING_COLUMN_WIDTH = 80,
