@@ -1355,6 +1355,7 @@ static const CRPCCommand commands[] =
     { "mining",             "getblocktemplate",       &getblocktemplate,       true,  {"template_request"} },
     { "mining",             "submitblock",            &submitblock,            true,  {"hexdata","parameters"} },
 
+    { "mining",             "getauxblock",            &getauxblock,            false, {"hash", "auxpow"} },
     { "mining",             "createauxblock",         &createauxblock,         true,  {"address"} },
     { "mining",             "submitauxblock",         &submitauxblock,         true,  {"hash", "auxpow"} },
 
