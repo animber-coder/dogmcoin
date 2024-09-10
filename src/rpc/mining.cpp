@@ -1332,6 +1332,18 @@ UniValue submitauxblock(const JSONRPCRequest& request)
                                 request.params[1].get_str());
 }
 
+UniValue getauxblock(const JSONRPCRequest& request)
+{
+    const UniValue response = getauxblockbip22(request);
+
+    // this is a request for a new blocktemplate: return response
+    if (request.params.size() == 0)
+        return response;
+
+    // this is a new block submission: return bool
+    return response.isNull();
+}
+
 /* ************************************************************************** */
 
 static const CRPCCommand commands[] =
